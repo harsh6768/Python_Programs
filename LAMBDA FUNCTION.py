@@ -5,11 +5,13 @@ it is funciton without  a name
 f=lambda x,y:x+y
 print(f(1,1))
 
+
+
 """
 
 lambda is always used with map function
-map has two argument 1st one is a function and 2nd one is the sequence 
-map(function,seq)
+map two 
+
 
 """
 
@@ -19,6 +21,7 @@ print(Fahrenhiet)
 
 c=list(map(lambda x:(float(5)/9)*(x-32),Fahrenhiet))
 print(c)
+
 
 a=[1,2,3,4]
 b=[17,12,11,10]
